@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+    
+}
+.burger{
+    background: url(hamburger.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    
+}
+.navbar{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.navbar1{
+    
+    width: fit-content;
+    margin: 20px;
+    padding: 10px;
+}
+.navbar1 a{
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.burger h3{
+    color: gray;
+   font-size: 40px ;
+   padding-left: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    gap: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+.tablesetting2{
+    /* margin-left: 300px; */
+    margin-top: 50px;
+   
+}
+.tablesetting2 img{
+    width: 100%;
+    border-radius: 3px;
+}
+.catering{
+    margin-top: 50px;
+    width: 50%;
+    line-height: 30px;
+    font-size: 1.3em;
+}
+.catering p {
+    margin: 1em 0;
+}
+.catering h1{
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+}
+.k1889{
+        text-align: center;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+}
+.container-2{
+    
+    display: flex;
+    gap: 2em;
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.menu{
+    
+    width: 100%;
+    margin-top: 200px;
+    line-height: 50px;
+}
+.tablesetting{
+    width: 100%;
+    margin-top: 200px;
+}
+.tablesetting img{
+    border-radius: 5px;
+}
+.menu h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.menu h4{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.container-3{
+    
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+.contact{
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.container-3 p{
+    margin-bottom: 20px;
+}
+.container-3 h3{
+    line-height: 50px;
+}
+form input{
+    width: 100%;
+    line-height: 40px;
+    padding: 16px 8px;
+    background-color: white;
+    border: 0;
+}
+form button{
+    padding: 8px 16px;
+    margin: 16px 0px;
+    background-color: rgb(243, 239, 239);
+    border: 0;
+}
+button p{
+    padding: 0px;
+    margin: 0;
+}
+.footer{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    height: 100px;
+}
+a:hover{
+    background-color: gray;
+}

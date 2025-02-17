@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main{
+ 
+  width: 100%;
+  height: 100vh;
+  background-color: #854836;
+}
+
+.login_container, .signup_container, .todo-container ,.welcome_container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+  background-color:#FEF9E1;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+label input{
+  font-size: 0.8em ;
+  padding: 10px;
+  width: 100%;
+  border: 0px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.todo-container input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.todo-container button {
+  padding: 10px;
+}
+
+.todo-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.input_box{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e0e2e6;
+    margin-bottom: 25px;
+    border-radius: 30px ;
+    padding-left: 20px;
+}
+.input_box input{
+  
+  border: none;
+  font-weight: 16px;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  padding: 10px;
+}
+button{
+  margin-top: 0px;
+  background: #854836;
+  color: #fff;
+  border: none;
+  text-align: center  ;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  
+  cursor: pointer;
+} 
+h3,h1{
+  margin: 20px;
+}
+.user_data input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 15px;
+  
+}
+.art_img{
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.total{
+  background-color: rgb(132, 200, 156);
+  width: 100%;
+  height: 100vh;
+}
+.total1{
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  top: 100px;
+  left: 35%;
+  
+}
+.user_data{
+  border-radius: 25px;
+  display: flex;
+  background-color: white;
+  padding: 16px 8px;
+  margin: 20px;
+}
+.user_output{
+ 
+  padding: 16px 8px;
+  background-color: white;
+  height: fit-content ;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.user_output p{
+  margin: 10px;
+  font-weight: 5px;
+  font-size: larger;
+}
+.image{
+  width: 300px;
+  height: 300px;
+
+}
